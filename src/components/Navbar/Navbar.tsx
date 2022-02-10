@@ -26,7 +26,7 @@ export function Navbar() {
               </div>
             </div>
             <div className="inset-y-0 right-[0] flex items-center pr-0 sm:static sm:inset-auto sm:ml-0 sm:pr-5 sm:block">
-              <button type="button" className="bg-green-500 p-3 rounded-full text-white font-bold	 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white sm:block">
+              <button type="button" className="bg-green-500 p-3 sm:mx-4 rounded-full text-white font-bold	 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white sm:block">
                 Fazer Login
               </button>
             </div>
