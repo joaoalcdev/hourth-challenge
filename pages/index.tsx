@@ -4,16 +4,6 @@ import "isomorphic-fetch";
 import Head from 'next/head';
 import Link from 'next/link';
 
-import styled, { createGlobalStyle } from 'styled-components';
-const GlobalStyle = createGlobalStyle`
- h1 {
-   /* font-size: 4rem; */
- }
-`;
-const Container = styled.div`
-  text-align: center;
-`;
-
 import { Navbar } from '../src/components/Navbar/Navbar';
 
 const Home: NextPage = () => {
@@ -25,11 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Container>
-        <GlobalStyle />
-        <h1>Hello, worldsadisadjia!</h1>
-      </Container>
-
+        <h1 className="text-red-700 abcdaamazonia">Hello, worldsadisadjia!</h1>
     </>
   )
 }
