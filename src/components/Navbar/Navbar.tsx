@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export function Navbar() {
   return (
-    <section classNameName="">
+    <>
       <nav className="items-center justify-center">
         <div className="max-w-full px-24 sm:px-2 align-middle lg:px-8">
           <div className="relative flex items-center justify-between h-32">
@@ -33,6 +33,6 @@ export function Navbar() {
         </div>
         {/* <div className="sm:hidden" id="mobile-menu"></div> */}
       </nav>
-    </section>
+    </>
   )
 }
