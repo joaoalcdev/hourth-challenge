@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <Navbar />
       <Container>
         <GlobalStyle />
-        <h1>Hello, world!</h1>
+        <h1>Hello, worldsadisadjia!</h1>
       </Container>
 
     </>
