@@ -19,10 +19,10 @@ export const theme = {
 
     // backgroundColor: '#000000',
   },
-  fonts: {
-    title000: '',
-    title000: '',
-    text000: '',
-    text000: '',
-  }
+  // fonts: {
+  //   title000: '',
+  //   title000: '',
+  //   text000: '',
+  //   text000: '',
+  // }
 }
