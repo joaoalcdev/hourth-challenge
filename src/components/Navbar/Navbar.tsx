@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -7,7 +8,7 @@ export function Navbar() {
   return (
     <>
       <nav className="items-center justify-center">
-        <div className="max-w-full px-24 sm:px-2 align-middle lg:px-8">
+        <div className="max-w-full px-20 sm:px-2 align-middle lg:px-8">
           <div className="relative flex items-center justify-between h-32">
             <div className="hidden sm:block sm:ml-6">
               <div className="flex items-center justify-center">
@@ -24,7 +25,7 @@ export function Navbar() {
                 <img className="hidden lg:block h-16 w-auto" src="https://images.assets-landingi.com/oimZ7w5z/drop_link_fy.png" alt="DropLinkFy" />
               </div>
             </div>
-            <div className="absolute inset-y-0 right-[-80%] flex items-center pr-2 sm:static sm:inset-auto sm:ml-0 sm:pr-2 sm:block">
+            <div className="inset-y-0 right-[0] flex items-center pr-0 sm:static sm:inset-auto sm:ml-0 sm:pr-5 sm:block">
               <button type="button" className="bg-green-500 p-3 rounded-full text-white font-bold	 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white sm:block">
                 Fazer Login
               </button>
