@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import { Navbar } from '../src/components/Navbar/Navbar';
+import { Header } from '../src/components/Header/Header';
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-        <h1 className="text-red-700 abcdaamazonia">Hello, worldsadisadjia!</h1>
+      <Header />
     </>
   )
 }
