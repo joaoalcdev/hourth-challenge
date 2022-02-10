@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export function Header() {
   return (
-    <section classNameName="">
+    <>
       <div class="min-h-screen min-w-full bg-white flex flex-col justify-center">
         <div class="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
           {/* <div class="relative bg-white shadow-lg sm:rounded-3xl">
@@ -34,6 +34,6 @@ export function Header() {
           </div>
         </div>
       </div>
-    </section>
+    </>
   )
 }
