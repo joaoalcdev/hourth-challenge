@@ -7,7 +7,7 @@ import Link from 'next/link';
 import styled, { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
  h1 {
-   font-size: 4rem;
+   /* font-size: 4rem; */
  }
 `;
 const Container = styled.div`
