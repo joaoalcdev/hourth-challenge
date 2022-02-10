@@ -31,7 +31,7 @@ export function Navbar() {
             </div>
           </div>
         </div>
-        <div className="sm:hidden" id="mobile-menu"></div>
+        {/* <div className="sm:hidden" id="mobile-menu"></div> */}
       </nav>
     </section>
   )
