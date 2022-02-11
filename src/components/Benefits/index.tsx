@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
@@ -7,8 +8,26 @@ import Image from 'next/image'
 export function Benefits() {
   return (
     <>
-      <div className="container mx-auto flex flex-wrap justify-center mb-24 mt-24 px-8">
-        <h1 className="text-5xl w-full text-center font-normal pb-24">Vantagens do <span className="text-[#0d82ff] font-bold">Droplinkfy</span></h1>
+      <div className="container mx-auto flex flex-wrap justify-center mt-24 px-8">
+        <h1 className="text-5xl w-full text-center font-normal pb-8">
+          Vantagens do <span className="text-[#0d82ff] font-bold">Droplinkfy</span>
+        </h1>
+
+        <div className="w-full mx-auto flex flex-col justify-items-center px-4 bg-center xl:object-contain lg:object-contain md:object-contain sm:object-contain">
+          <Image
+            src="/assets/1.png"
+            height="150"
+            width="150"
+            className="w-1/2 bg-no-repeat bg-center xl:object-contain lg:object-contain md:object-contain sm:object-contain"
+          />
+          {/* <Image
+            src="/assets/ing.jpg"
+            height="400"
+            width="400"
+            className="rotate-180 bg-no-repeat bg-center xl:object-none lg:object-none md:object-none sm:object-none"
+          /> */}
+        </div>
+
         <div className="lg:w-1/2 md:w-1/2 w-full p-4">
           <div className="p-8 items-stretch rounded-xl justify-center">
             <img src="" alt="img 01" className="justify-center" />
@@ -53,7 +72,7 @@ export function Benefits() {
             </h5>
           </div>
         </div>
-        <button className="flex justify-center sm:w-2/3 lg:w-1/3 mt-2 px-8 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700]">
+        <button className="flex justify-center sm:w-2/3 lg:w-1/3 mt-2 mb-24 px-8 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700]">
           QUERO LUCRAR MAIS
         </button>
       </div>

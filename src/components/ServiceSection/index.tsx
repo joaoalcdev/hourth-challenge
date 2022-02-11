@@ -4,19 +4,12 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import { Footer } from '../Footer/index'
 
-export function ServicesSection() {
+
+export function ServiceSection() {
   return (
     <>
-      {/* <svg
-        className="mr-3 lg:w-[8%] w-[6%] sm:w-[6%] h-auto text-blue-500 block"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="currentColor"
-        height="500"
-        width="500"
-        viewBox="0 0 16 16">
-        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-      </svg> */}
       <section className="relative pt-12 bg-white">
         <div className="items-center flex flex-wrap">
           <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
@@ -142,7 +135,9 @@ export function ServicesSection() {
                     <p className="font-light text-justify pb-8">
                       Obs: Necessário possuir proxy e números de telefone para fazer a criação de contas para o processamento de pedidos. Ferramenta possui tutoriais de instalação e indicações de fornecedores de proxy, números e e-mails.
                     </p>
-                    <Link href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
+                    <Link
+                      passHref
+                      href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
                       <a className="flex justify-center items-center justify-items-center text-center w-full mt-6 px-4 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700]">
                         QUERO AUMENTAR MEU FATURAMENTO
                       </a>
@@ -156,7 +151,7 @@ export function ServicesSection() {
             </div>
           </div>
         </div>
-
+        <Footer />
       </section>
     </>
   )

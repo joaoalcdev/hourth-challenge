@@ -5,6 +5,9 @@ import Image from 'next/image'
 
 
 export function PricingCard() {
+  const checklist = ['Aumente seu lucro em até 3x', 'Processamento de pedidos ilimitados', 'Criação de contas com apenas 1 clique', 'Processamento automático no shopify c/ código de rastreio']
+
+
   return (
     <>
       <div className="container mx-auto flex flex-col justify-center justify-items-center items-center">
@@ -33,58 +36,26 @@ export function PricingCard() {
               className="font-extralight text-center w-full">
               *valor cobrado apenas por pedidos processados pela ferramenta.
             </p>
-            <div
+            {checklist.map((text, index) => (<div
+              key={index}
               className="my-4 flex flex-col text-base items-center">
               <p
                 className="flex items-center w-full my-1 font-thin text-lg py-1">
                 <svg
-                  className="mr-3 w-[10%] h-auto text-blue-500 block"
+                  className="mr-3 w-[2rem] h-[2rem] text-blue-500 max-w-[2rem] min-w-[2rem]"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
                   viewBox="0 0 16 16">
                   <path
                     d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
                 </svg>
-                Aumente seu lucro em até 3x
+                {text}
               </p>
-              <p
-                className="flex items-center w-full my-1 font-thin text-lg py-1">
-                <svg
-                  className="mr-3 w-[10%] h-auto text-blue-500 block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>
-                Processamento de pedidos ilimitados
-              </p>
-              <p
-                className="flex items-center w-full my-1 font-thin text-lg py-1">
-                <svg
-                  className="mr-3 w-[10%] h-auto text-blue-500 block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>
-                Criação de contas com apenas 1 clique
-              </p>
-              <p
-                className="flex items-center w-full my-1 font-thin text-lg py-1">
-                <svg
-                  className="mr-3 w-[15%] h-auto text-blue-500 block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                </svg>
-                Processamento automático no shopify c/ código de rastreio
-              </p>
-              <p
-                className="text-sm font-extralight text-left w-full pt-6 bottom-0">
-                *cupons de frete grátis não são aplicados em 100% dos pedidos processados
-              </p>
-            </div>
+            </div>))}
+            <p
+              className="text-sm font-extralight text-left w-full pt-6 bottom-0">
+              *cupons de frete grátis não são aplicados em 100% dos pedidos processados
+            </p>
           </div>
         </div>
         <div className="flex items-center justify-center mt-2">
@@ -100,6 +71,7 @@ export function PricingCard() {
             </path>
           </svg>
           <Link
+            passHref
             href="https://api.whatsapp.com/send?phone=5511945316242&text=Oii%2C%20%C3%A9%20sobre%20o%20Droplinkfy%2C%20voc%C3%AA%20consegue%20me%20ajudar%3F">
             <a
               className=" text-[#5d92ff] px-3 rounded-md text-lg font-light"
@@ -108,7 +80,9 @@ export function PricingCard() {
             </a>
           </Link>
         </div>
-        <Link href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
+        <Link
+          passHref
+          href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
           <a
             className="text-center mb-16 lg:w-1/3 sm:1/2 mt-6 px-8 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700]">
             ACESSAR AGORA

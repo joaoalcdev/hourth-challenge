@@ -2,9 +2,12 @@
 const path = require('path')
 
 module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+  images: {
+    // domains: ['assets.vercel.com'],
+    // formats: ['image/svg', 'image/webp', 'image/png', 'image/jpeg', 'image/jpg']
   },
-  reactStrictMode: true,
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')]
+  },
+  reactStrictMode: true
 }
-

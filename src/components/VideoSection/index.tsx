@@ -7,7 +7,7 @@ import Image from 'next/image'
 export function VideoSection() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen pb-6">
+      <div className="flex flex-col items-center justify-center h-screen pb-6 px-2">
         <h3 className="mb-8 font-[300] text-[210%] text-center">
           Assista o vídeo até o final e veja <span className="text-[#0d82ff] font-bold">Como Funciona</span>
         </h3>
