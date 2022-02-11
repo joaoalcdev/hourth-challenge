@@ -16,12 +16,14 @@ export function HomeSection() {
                 <div className="text-6xl font-semibold text-gray-900 leading-none text-[250%]">
                   Tenha até 3x mais lucro em sua operação de dropshipping. Processando pedidos fora do aliexpress.
                 </div>
-                <div className="mt-6 text-xl font-light text-true-gray-500 antialiased text-[120%]">
+                <div className="mt-6 mb-8 text-xl font-light text-true-gray-500 antialiased text-[120%]">
                   Economize no pagamento dos seus produtos e potencialize seu lucro com a ferramenta mais poderosa de processamento de pedidos do mercado.
                 </div>
-                <button className="w-9/12 mt-6 px-8 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700]">
-                  QUERO LUCRAR MAIS
-                </button>
+                <Link href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
+                  <a className="w-9/12 mt-6 px-8 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700]">
+                    QUERO LUCRAR MAIS
+                  </a>
+                </Link>
               </div>
               {/* <div className="mt-12 lg:mt-20 lg:ml-20 text-left">
                 asd

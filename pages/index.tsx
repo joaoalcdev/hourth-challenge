@@ -10,6 +10,7 @@ import { VideoSection } from '../src/components/VideoSection/index';
 import { Benefits } from '../src/components/Benefits/index';
 import { PricingCard } from '../src/components/PricingCard/index';
 import { ServicesSection } from '../src/components/ServicesSection/index';
+import { Footer } from '../src/components/Footer/index';
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
       <Benefits />
       <PricingCard />
       <ServicesSection />
+      <Footer />
     </>
   )
 }
