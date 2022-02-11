@@ -8,7 +8,7 @@ export function Navbar() {
   return (
     <>
       <nav className="items-center justify-center">
-        <div className="max-w-full px-20 sm:px-2 align-middle lg:px-8">
+        <div className="max-w-full px-8 sm:px-2 align-middle lg:px-8">
           <div className="relative flex items-center justify-between h-32">
             <div className="hidden sm:block sm:ml-6">
               <div className="flex items-center justify-center">
