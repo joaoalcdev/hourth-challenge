@@ -13,19 +13,13 @@ export function Benefits() {
           Vantagens do <span className="text-[#0d82ff] font-bold">Droplinkfy</span>
         </h1>
 
-        <div className="w-full mx-auto flex flex-col justify-items-center px-4 bg-center xl:object-contain lg:object-contain md:object-contain sm:object-contain">
+        <div className="w-1/2 md:w-full flex flex-col justify-items-center">
           <Image
             src="/assets/1.png"
             height="150"
             width="150"
-            className="w-1/2 bg-no-repeat bg-center xl:object-contain lg:object-contain md:object-contain sm:object-contain"
+            className="max-w-[100px] bg-no-repeat bg-center object-center xl:object-contain lg:object-contain md:object-contain sm:object-contain"
           />
-          {/* <Image
-            src="/assets/ing.jpg"
-            height="400"
-            width="400"
-            className="rotate-180 bg-no-repeat bg-center xl:object-none lg:object-none md:object-none sm:object-none"
-          /> */}
         </div>
 
         <div className="lg:w-1/2 md:w-1/2 w-full p-4">
