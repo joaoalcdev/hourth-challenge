@@ -3,10 +3,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
-export function Header() {
+export function HomeSection() {
   return (
     <>
-      <div className="min-h-screen min-w-full bg-white flex flex-col justify-center">
+      <div className="min-h-screen min-w-full bg-white flex flex-col justify-center mt-[-5%]">
         <div className="relative w-full max-w-screen lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
           {/* <div className="relative bg-white shadow-lg sm:rounded-3xl">
           </div> */}
