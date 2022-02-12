@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <p text-align="">Hourth - Frontend Code Challenge</p> <img alt="D3 Logo" height="80" title="Plant Manager" src="./assets/logo.svg" /> 
+    <p text-align="">Hourth - Frontend Code Challenge</p> <img alt="Hourth Logo" height="80" title="Plant Manager" src="./assets/logo.jpeg" /> 
   </h1>
 </div>
 
@@ -33,6 +33,10 @@
 
 Aplicação desenvolvida para demonstração e com o intuito de teste técnico de linguagem de programação visando avaliar skill no front-end.
 
+- Objetivo:
+
+➡️ Clonar o site proposto no link a seguir => [Link](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
+
 ## :hammer_and_wrench: Features:
 
 - [x] Responsividade;
@@ -42,7 +46,7 @@ Aplicação desenvolvida para demonstração e com o intuito de teste técnico d
 - [x] Next Image;
 - [x] Next Link;
 - [x] Next Head / Next Page;
-- [x] + Outras Features do Next...
+- [x] - Outras Features do Next...
 
 ## ✨ Tecnologias:
 
@@ -66,9 +70,18 @@ Você pode ver o redesign (Remake da interface) através desse link [link](https
 
 ## 💻 Proposta do Desafio:
 
-![proposta](https://loud-fright-350.notion.site/Desafio-Hourth-Front-End-e2fcb9eec3da405786d6340544d492fc)
-![website](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
+- Clonar a landing page exibida abaixo
 
+<p align="center">
+  <img 
+    src="./assets/cover-proposal.svg?style=flat"
+    alt="Cover Project" 
+  />
+
+[proposta](https://loud-fright-350.notion.site/Desafio-Hourth-Front-End-e2fcb9eec3da405786d6340544d492fc)
+[website](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
+
+</p>
 ## ⚙️ Running the project:
 
 Use **yarn** ou **npm install** para instalar as dependências.
