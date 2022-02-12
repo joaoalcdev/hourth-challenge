@@ -24,7 +24,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* Title */}
-          <title>DroplinkFy - Site Oficial </title>
+          <title>DroplinkFy | Clone Code Challenge</title>
           {/*  Description Tags  */}
           <meta
             property="og:title"

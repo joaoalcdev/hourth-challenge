@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title> DroplinkFy | Clone Code Challenge</title>
+        <title> DroplinkFy | Clone Code Challenge </title>
       </Head>
       <HomeSection />
       <Benefits />
