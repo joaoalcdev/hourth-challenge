@@ -9,5 +9,6 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   },
+  optimizeFonts: true,
   reactStrictMode: true
 }

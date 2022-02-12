@@ -13,41 +13,41 @@ export function PricingCard() {
     <>
       <div className="container mx-auto flex flex-col justify-center justify-items-center items-center">
         <h1
-          className="text-5xl w-full text-center font-normal pb-6 px-4">
+          className="text-5xl w-full text-center font-normal pb-6 px-4 font-dosis">
           Confira nosso <span className="text-[#0050c7] font-bold">plano</span>
         </h1>
         <div className="lg:w-1/3 md:w-1/2 w-full p-2">
           <div className="p-8 rounded-xl shadow-xl border border-[#e9e9e9]">
             <h4
-              className="text-center font-">
+              className="text-center font-dosis">
               Obtenha acesso completo a todas as nossas funcionalidades
             </h4>
             <h4
-              className="text-center font-bold text-3xl pt-4 pb-1">
+              className="text-center font-bold text-3xl pt-4 pb-1 font-dosis">
               14 dias de teste grátis.
             </h4>
-            <h5 className="text-5xl py-2 text-[#0050c7] text-center font-bold">
+            <h5 className="text-5xl py-2 text-[#0050c7] text-center font-bold font-dosis">
               Após <br /> R$387/mês
             </h5>
             <p
-              className="font-extralight text-center w-full">
+              className="font-extralight text-center w-full font-dosis">
               + 3% pelo valor faturado
             </p>
             <p
-              className="font-extralight text-center w-full">
+              className="font-extralight text-center w-full font-dosis">
               *valor cobrado apenas por pedidos processados pela ferramenta.
             </p>
             {checklist.map((text, index) => (<div
               key={index}
               className="my-4 flex flex-col text-base items-center">
               <p
-                className="flex items-center w-full my-1 font-thin text-lg py-1">
+                className="flex items-center w-full my-1 font-thin text-lg py-1 font-dosis">
                 <SvgCheckList />
                 {text}
               </p>
             </div>))}
             <p
-              className="text-sm font-extralight text-left w-full pt-6 bottom-0">
+              className="text-sm font-extralight text-left w-full pt-6 bottom-0 font-dosis">
               *cupons de frete grátis não são aplicados em 100% dos pedidos processados
             </p>
           </div>
@@ -68,7 +68,7 @@ export function PricingCard() {
             passHref
             href="https://api.whatsapp.com/send?phone=5511945316242&text=Oii%2C%20%C3%A9%20sobre%20o%20Droplinkfy%2C%20voc%C3%AA%20consegue%20me%20ajudar%3F">
             <a
-              className=" text-[#5d92ff] px-3 rounded-md text-lg font-light"
+              className=" text-[#5d92ff] px-3 rounded-md text-lg font-light font-open-sans"
               aria-current="page">
               Dúvidas? Fale conosco!
             </a>
@@ -78,7 +78,7 @@ export function PricingCard() {
           passHref
           href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
           <a
-            className="text-center mb-16 lg:w-1/3 sm:1/2 mt-6 px-8 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700]">
+            className="text-center mb-16 lg:w-1/3 sm:1/2 mt-6 px-8 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700] font-open-sans">
             ACESSAR AGORA
           </a>
         </Link>
