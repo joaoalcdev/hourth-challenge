@@ -67,7 +67,7 @@ Aplicação desenvolvida para demonstração com o intuito de teste técnico de 
 
 ## 🔖 Layout:
 
-Você pode ver o redesign (Remake da interface) através desse link [link](https://www.figma.com/file/kwVfSdI0816LPU8llMTMcj/Untitled?node-id=1%3A2). É necessário ter uma conta no [Figma](http://figma.com/) para acessar.
+Você pode ver o redesign (Remake da interface) através desse [link](https://www.figma.com/file/kwVfSdI0816LPU8llMTMcj/Untitled?node-id=1%3A2). É necessário ter uma conta no [Figma](http://figma.com/) para acessar.
 
 ## 💻 Proposta do Desafio:
 
@@ -78,11 +78,12 @@ Você pode ver o redesign (Remake da interface) através desse link [link](https
     src="./assets/cover-proposal.svg?style=flat"
     alt="Cover Proposal" 
   />
-
-[detalhes do desafio](https://loud-fright-350.notion.site/Desafio-Hourth-Front-End-e2fcb9eec3da405786d6340544d492fc)
-[site para clonar](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
-
 </p>
+
+- [detalhes do desafio](https://loud-fright-350.notion.site/Desafio-Hourth-Front-End-e2fcb9eec3da405786d6340544d492fc)
+
+- [site para clonar](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
+
 
 ## ⚙️ Rodando o Projeto:
 
