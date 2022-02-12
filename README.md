@@ -41,6 +41,7 @@ Aplicação desenvolvida para demonstração com o intuito de teste técnico de 
 
 - [x] Responsividade;
 - [x] SSR;
+- [x] SEO;
 - [x] Static File Serving;
 - [x] Array & Componentização para Elementos;
 - [x] Next Image;
