@@ -31,7 +31,7 @@
 
 ## 💻 Projeto:
 
-Aplicação desenvolvida para demonstração e com o intuito de teste técnico de linguagem de programação visando avaliar skill no front-end.
+Aplicação desenvolvida para demonstração com o intuito de teste técnico de linguagem de programação visando avaliar skill no front-end.
 
 - Objetivo:
 
@@ -66,11 +66,11 @@ Aplicação desenvolvida para demonstração e com o intuito de teste técnico d
 
 ## 🔖 Layout:
 
-Você pode ver o redesign (Remake da interface) através desse link [link](https://www.figma.com/file/JSBTu7MnPcRxoIdOE6Xp9u/D3-%7C-Code-Challange?node-id=0%3A1). É necessário ter uma conta no [Figma](http://figma.com/) para acessar.
+Você pode ver o redesign (Remake da interface) através desse link [link](https://www.figma.com/file/kwVfSdI0816LPU8llMTMcj/Untitled?node-id=1%3A2). É necessário ter uma conta no [Figma](http://figma.com/) para acessar.
 
 ## 💻 Proposta do Desafio:
 
-- Clonar a landing page exibida abaixo
+- Clonar a landing page exibida abaixo:
 
 <p align="center">
   <img 
@@ -78,8 +78,8 @@ Você pode ver o redesign (Remake da interface) através desse link [link](https
     alt="Cover Proposal" 
   />
 
-[proposta](https://loud-fright-350.notion.site/Desafio-Hourth-Front-End-e2fcb9eec3da405786d6340544d492fc)
-[website](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
+[detalhes do desafio](https://loud-fright-350.notion.site/Desafio-Hourth-Front-End-e2fcb9eec3da405786d6340544d492fc)
+[site para clonar](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
 
 </p>
 
