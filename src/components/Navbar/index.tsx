@@ -29,8 +29,8 @@ export function Navbar() {
             </div>
             <div className="flex items-center justify-center sm:items-stretch sm:justify-center">
               <div className="flex-shrink-0 flex items-center">
-                <img className="block lg:hidden h-16 w-auto" src="https://images.assets-landingi.com/oimZ7w5z/drop_link_fy.png" alt="DropLinkFy" />
-                <img className="hidden lg:block h-16 w-auto" src="https://images.assets-landingi.com/oimZ7w5z/drop_link_fy.png" alt="DropLinkFy" />
+                <Image className="block lg:hidden h-16 w-auto" src="https://images.assets-landingi.com/oimZ7w5z/drop_link_fy.png" alt="DropLinkFy" />
+                <Image className="hidden lg:block h-16 w-auto" src="https://images.assets-landingi.com/oimZ7w5z/drop_link_fy.png" alt="DropLinkFy" />
               </div>
             </div>
             <div className="inset-y-0 right-[0] flex items-center pr-0 sm:static sm:inset-auto sm:ml-0 sm:pr-5 sm:block">
