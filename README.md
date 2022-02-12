@@ -82,7 +82,8 @@ Você pode ver o redesign (Remake da interface) através desse link [link](https
 [website](https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0)
 
 </p>
-## ⚙️ Running the project:
+
+## ⚙️ Rodando o Projeto:
 
 Use **yarn** ou **npm install** para instalar as dependências.
 
