@@ -60,8 +60,8 @@ export function ServiceSection() {
             </div>
           </section>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   )
 }

@@ -11,14 +11,10 @@ export function HomeSection() {
   return (
     <>
       <div>
-        <Image src="/assets/bg_top.jpg" layout="fill" className="bg-cover bg-no-repeat bg-center xl:object-cover lg:object-cover md:object-cover sm:object-fill h-full w-full z-[-1]" />
-
+        <Image src="/assets/bg_top.jpg" layout="fill" className="bg-cover bg-fixed bg-no-repeat bg-center object-fill md:object-cover z-[-1]" />
         <Navbar />
-
         <div className="min-h-screen min-w-full flex flex-col justify-center mt-[-5%]">
           <div className="relative w-full max-w-screen lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
-            {/* <div className="relative bg-white shadow-lg sm:rounded-3xl">
-          </div> */}
             <div className="flex items-center justify-start pt-0 pl-6">
               <div className="px-3 py-6">
                 <div className="lg:w-4/6 xl:w-2/4 mt-4 lg:mt-4 lg:ml-4 text-left">
@@ -34,9 +30,6 @@ export function HomeSection() {
                     </a>
                   </Link>
                 </div>
-                {/* <div className="mt-12 lg:mt-20 lg:ml-20 text-left">
-                asd
-              </div> */}
               </div>
             </div>
           </div>
