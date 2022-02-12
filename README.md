@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <p text-align="">D3 Code Challenge</p> <img alt="D3 Logo" height="80" title="Plant Manager" src="./assets/logo.svg" /> 
+    <p text-align="">Hourth - Frontend Code Challenge</p> <img alt="D3 Logo" height="80" title="Plant Manager" src="./assets/logo.svg" /> 
   </h1>
 </div>
 
@@ -10,52 +10,39 @@
     alt="License" 
   />
   <img 
-    src="https://img.shields.io/badge/Code_Challenge-D3-%23000000"
-    alt="D3 Challenge" 
-   />
-  <img 
-    src="https://img.shields.io/badge/Tests-Total%3A%207%20%7C%207%20%E2%9C%85%20%7C%200%20%E2%9D%8C%20%7C-%23000000"
-    alt="Tests" 
+    src="https://img.shields.io/badge/Code_Challenge-Frontend-%23000000"
+    alt="Hourth Challenge" 
    />
 </p>
 
-## 📷 Demonstration:
+## 📷 Demonstração:
 
 <div align="center">
   <h1 align="center">
-
-[Click here](https://youtu.be/xZ-4Mbft59Q) to watch the project demo video.
-
+  Preview do Projeto 
+  
+  | [Link](https://hourth-challenge.vercel.app/) |
 <img 
-    src="./assets/cover.gif?style=flat"
+    src="./assets/cover-bg.svg?style=flat"
     alt="Cover Project" 
   />
-
   </h1>
 </div>
 
-## 💻 Project:
+## 💻 Projeto:
 
-Application developed to have a basis to predict a possible contagion of covid during the next few days.
-
-## 🔺 NOTE:
-
-In case the application does not show results, please check the latest data entry data on the website: [ourworldindata](https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&time=2020-03-01..latest&facet=none&pickerSort=asc&pickerMetric=location&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=USA~GBR~CAN~DEU~ITA~IND)
-The site must present data that is a given day unless it is our current one.
-Example:
-
-- Last dice roll (2022-02-09).
-- Current date (2022-02-10).
-
-- 🔺 | Commits inserted at once without modification, were automatically developed and tested on localhost using terminal interface with Node.Js and tested with Jest.
+Aplicação desenvolvida para demonstração e com o intuito de teste técnico de linguagem de programação visando avaliar skill no front-end.
 
 ## :hammer_and_wrench: Features:
 
-- [x] Responsividade.
+- [x] Responsividade;
 - [x] SSR;
-- [x] Node.js application console input;
-- [x] Node.js application result on console;
-- [x] Covid 19 contagion forecast in the world.
+- [x] Static File Serving;
+- [x] Array & Componentização para Elementos;
+- [x] Next Image;
+- [x] Next Link;
+- [x] Next Head / Next Page;
+- [x] + Outras Features do Next...
 
 ## ✨ Tecnologias:
 
@@ -66,19 +53,16 @@ Example:
 - [x] Next.js
 - [x] TailwindCSS
 - [x] postCSS para TailwindCSS Config
-- [x] SaSS
-- [x] SSR
-- [x] SSR
 
 ## ⌛️ Horas destinadas ao Hourth Frontend Code Challenge:
 
-- Total hours since the first folder was created ≅ 35 hours, 0 minutes.
-- Total hours worked on the project ≅ 25 hours, 0 minutes.
-- Total hours worked directly ≅ 8 hours, 20 minutes with intervals of two to three hours.
+- Total de horas desde a criação do projeto ≅ 48 horas, 0 minutos.
+- Total de horas trabalhadas no projeto ≅ 30 horas, 0 minutos.
+- Total de horas trabalhadas direto ≅ 12 horas, 33 minutos com intervalos de aproximadamente duas horas.
 
 ## 🔖 Layout:
 
-You can view the project layout through this [link](https://www.figma.com/file/JSBTu7MnPcRxoIdOE6Xp9u/D3-%7C-Code-Challange?node-id=0%3A1). It is necessary to have an account [Figma](http://figma.com/) to access.
+Você pode ver o redesign (Remake da interface) através desse link [link](https://www.figma.com/file/JSBTu7MnPcRxoIdOE6Xp9u/D3-%7C-Code-Challange?node-id=0%3A1). É necessário ter uma conta no [Figma](http://figma.com/) para acessar.
 
 ## 💻 Proposta do Desafio:
 
@@ -87,24 +71,25 @@ You can view the project layout through this [link](https://www.figma.com/file/J
 
 ## ⚙️ Running the project:
 
-Use **yarn** or **npm install** to install project dependencies.
-Then start the project.
+Use **yarn** ou **npm install** para instalar as dependências.
 
-After installing the dependencies, use
+Após a instalação, use
 
 ```cl
-yarn start
+yarn start / yarn dev
 ```
 
-or
+ou
 
 ```cl
 npm init
 ```
 
-## 📄 License
+Para rodar o projeto.
 
-This project is under MIT license. See the file [LICENSE](./LICENSE) for more details.
+## 📄 Licença
+
+O projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para maais detalhes.
 
 <br />
 
