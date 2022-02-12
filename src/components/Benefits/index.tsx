@@ -24,7 +24,14 @@ export function Benefits() {
 
         <div className="lg:w-1/2 md:w-1/2 w-full p-4">
           <div className="p-8 items-stretch rounded-xl justify-center">
-            <img src="" alt="img 01" className="justify-center" />
+            <div className="pb-6 w-full flex flex-col justify-items-center items-center">
+              <Image
+                src="/assets/2.png"
+                height="150"
+                width="150"
+                className="bg-gray-100 rounded-[100%] max-w-[100px] bg-no-repeat bg-center object-center xl:object-contain lg:object-contain md:object-contain sm:object-contain"
+              />
+            </div>
             <h4 className="font-bold text-[#0d82ff] text-2xl text-center">
               MAIS RAPIDEZ EM SEU PROCESSAMENTO
             </h4>
@@ -35,7 +42,14 @@ export function Benefits() {
         </div>
         <div className="lg:w-1/2 md:w-1/2 w-full p-4">
           <div className="p-8 items-stretch rounded-xl justify-center">
-            <img src="" alt="img 02" className="justify-center" />
+            <div className="pb-6 w-full flex flex-col justify-items-center items-center">
+              <Image
+                src="/assets/3.png"
+                height="150"
+                width="150"
+                className="bg-gray-100 rounded-[100%] max-w-[100px] bg-no-repeat bg-center object-center xl:object-contain lg:object-contain md:object-contain sm:object-contain"
+              />
+            </div>
             <h4 className="font-bold text-[#0d82ff] text-2xl text-center">
               PAGUE MENOS EM SEUS PRODUTOS
             </h4>
@@ -46,7 +60,14 @@ export function Benefits() {
         </div>
         <div className="lg:w-1/2 md:w-1/2 w-full p-4">
           <div className="p-8 items-stretch rounded-xl justify-center">
-            <img src="" alt="img 03" className="justify-center" />
+            <div className="pb-6 w-full flex flex-col justify-items-center items-center">
+              <Image
+                src="/assets/4.png"
+                height="150"
+                width="150"
+                className="bg-gray-100 rounded-[100%] max-w-[100px] bg-no-repeat bg-center object-center xl:object-contain lg:object-contain md:object-contain sm:object-contain"
+              />
+            </div>
             <h4 className="font-bold text-[#0d82ff] text-2xl text-center">
               CRIAÇÃO DE CONTAS COM ÚNICO CLIQUE
             </h4>
@@ -57,7 +78,14 @@ export function Benefits() {
         </div>
         <div className="lg:w-1/2 md:w-1/2 w-full p-4">
           <div className="p-8 items-stretch rounded-xl justify-center">
-            <img src="" alt="img 04" className="justify-center" />
+            <div className="pb-6 w-full flex flex-col justify-items-center items-center">
+              <Image
+                src="/assets/5.png"
+                height="150"
+                width="150"
+                className="bg-gray-100 rounded-[100%] max-w-[100px] bg-no-repeat bg-center object-center xl:object-contain lg:object-contain md:object-contain sm:object-contain"
+              />
+            </div>
             <h4 className="font-bold text-[#0d82ff] text-2xl text-center">
               TUDO AUTOMATIZADO
             </h4>

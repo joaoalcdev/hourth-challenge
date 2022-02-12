@@ -1,8 +1,7 @@
 import React from 'react';
 import type { NextPage } from 'next';
-import "isomorphic-fetch";
+// import "isomorphic-fetch";
 import Head from 'next/head';
-import Link from 'next/link';
 
 import { HomeSection } from '../src/components/HomeSection/index';
 import { Benefits } from '../src/components/Benefits/index';
