@@ -75,7 +75,7 @@ Você pode ver o redesign (Remake da interface) através desse link [link](https
 <p align="center">
   <img 
     src="./assets/cover-proposal.svg?style=flat"
-    alt="Cover Project" 
+    alt="Cover Proposal" 
   />
 
 [proposta](https://loud-fright-350.notion.site/Desafio-Hourth-Front-End-e2fcb9eec3da405786d6340544d492fc)
