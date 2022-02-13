@@ -6,7 +6,7 @@ export function Navbar() {
   return (
     <>
       <nav className="items-center justify-center z-20">
-        <div className="max-w-full px-8 sm:px-2 align-middle lg:px-8">
+        <div className="max-w-full px-8 sm:px-2 md:px-8 lg:px-8">
           <div className="relative flex items-center justify-between h-32">
             <div className="hidden sm:block sm:ml-6">
               <div className="flex items-center justify-center">
@@ -19,7 +19,7 @@ export function Navbar() {
                   </path>
                 </svg>
                 <Link passHref href="https://api.whatsapp.com/send?phone=5511945316242&text=Oii%2C%20%C3%A9%20sobre%20o%20Droplinkfy%2C%20voc%C3%AA%20consegue%20me%20ajudar%3F">
-                  <a className=" text-[#5d92ff] px-3 py-2 rounded-md text-md font-light font-open-sans" aria-current="page">
+                  <a className=" text-[#5d92ff] pl-3 py-2 rounded-md text-md font-light font-open-sans" aria-current="page">
                     Dúvidas? Fale conosco!
                   </a>
                 </Link>
