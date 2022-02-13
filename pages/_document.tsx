@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-title-in-document-head */
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document'
 
 class MyDocument extends Document {
@@ -24,7 +25,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* Title */}
-          <title>DroplinkFy | Clone Code Challenge</title>
+          <title> DroplinkFy | Clone Code Challenge </title>
           {/*  Description Tags  */}
           <meta
             property="og:title"

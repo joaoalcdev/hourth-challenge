@@ -29,9 +29,9 @@ export function ServiceSection() {
                     >
                       <div
                         className="flex items-stretch">
-                        <div className="flex flex-row justify-items-center items-center content-center justify-self-center	justify-center place-content-center place-items-center	place-self-center">
+                        <div className="flex flex-col md:flex-row mx-auto md:mx-0 py-4 md:py-0 md:text-left md:justify-items-center md:items-center content-center justify-self-center justify-center place-content-center place-items-center	place-self-center">
                           <SvgCheckList />
-                          <h4 className="font-light text-xl text-blueGray-500 flex flex-row text-left justify-items-center items-center font-open-sans">
+                          <h4 className="pt-2 font-light text-xl text-blueGray-500 flex flex-col md:flex-row text-center md:text-left justify-items-center items-center font-open-sans">
                             {text}
                           </h4>
                         </div>
