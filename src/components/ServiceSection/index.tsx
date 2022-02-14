@@ -15,7 +15,7 @@ export function ServiceSection() {
   return (
     <>
       <div className="relative h-full w-full">
-        <Image src="/assets/bg_bottom.jpg" layout="fill" className="absolute bottom-0 left-0 bg-cover bg-no-repeat w-full h-full min-w-[250px] min-h-[250px] max-h-auto max-w-auto z-[-1] bg-left object-center xl:object-cover lg:object-cover md:object-cover sm:object-cover" />
+        <Image src="/assets/bg_bottom.jpg" layout="fill" className="relative bottom-0 bg-fixed bg-cover bg-no-repeat min-w-[250px] min-h-[250px] max-h-auto max-w-auto z-[-1] bg-left object-cover sm:object-cover" />
         <div className="relative">
           <section className="pt-12">
             <div className="items-center flex flex-wrap">
@@ -42,16 +42,20 @@ export function ServiceSection() {
                         <p className="font-light text-justify pb-8 font-open-sans">
                           Obs: Necessário possuir proxy e números de telefone para fazer a criação de contas para o processamento de pedidos. Ferramenta possui tutoriais de instalação e indicações de fornecedores de proxy, números e e-mails.
                         </p>
-                        <Link
-                          passHref
-                          href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
-                          <a className="flex justify-center items-center justify-items-center text-center w-full mt-6 px-4 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700] font-open-sans">
-                            QUERO AUMENTAR MEU FATURAMENTO
-                          </a>
-                        </Link>
                         <p className="font-light text-[0.7rem] text-center pt-4 font-open-sans">
                           *Não somos responsáveis pelos <br /> bloqueios de contas dos usuários
                         </p>
+                      </div>
+                      <div className="flex flex-col items-center justify-center mt-6 w-full">
+                        <div className="w-10/12">
+                          <Link
+                            passHref
+                            href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
+                            <a className="text-lg mx-auto flex justify-center items-center justify-items-center text-center w-full mt-6 px-4 py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700] font-open-sans">
+                              QUERO AUMENTAR MEU FATURAMENTO
+                            </a>
+                          </Link>
+                        </div>
                       </div>
                     </li>
                   </ul>
