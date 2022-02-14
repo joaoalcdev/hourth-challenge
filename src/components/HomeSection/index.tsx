@@ -12,15 +12,15 @@ export function HomeSection() {
       <div className="mx-4 sm:mx-16 md:mx-[5rem] lg:mx-[11.75rem]">
         <Image src="/assets/bg_top.jpg" layout="fill" className="relative bg-cover bg-fixed bg-no-repeat bg-center object-cover sm:object-cover z-[-1]" />
         <Navbar />
-        <div className="min-h-screen min-w-full px-4 flex flex-col justify-center mt-0">
+        <div className="min-h-screen min-w-full px-4 flex flex-col justify-center mt-[-2rem]">
           <div className="relative w-full max-w-screen lg:max-w-6xl xl:max-w-screen-2xl mx-auto mb-[-5%] sm:mb-0">
             <div className="flex items-center text-center sm:text-justify justify-center md:justify-start pt-0">
               <div className="px-3 py-6">
                 <div className="lg:w-4/6 xl:w-2/4 mt-4 lg:mt-4 lg:ml-4 text-lef">
-                  <div className="font-bold text-gray-900 text-4xl sm:text-4xl md:text-5xl font-dosis">
+                  <div className="font-bold text-gray-900 text-3xl sm:text-4xl md:text-5xl font-dosis">
                     Tenha até 3x mais lucro em sua operação de dropshipping. Processando pedidos fora do aliexpress.
                   </div>
-                  <div className="mt-6 px-2 mb-8 sm:text-2xl md:text-2xl font-light leading-none text-true-gray-500 antialiased text-[155%] font-open-sans">
+                  <div className="mt-6 px-2 mb-8 text-2xl sm:text-2xl md:text-2xl font-light leading-none text-true-gray-500 antialiased font-open-sans">
                     Economize no pagamento dos seus produtos e potencialize seu lucro com a ferramenta mais poderosa de processamento de pedidos do mercado.
                   </div>
                   <div className="w-full">
