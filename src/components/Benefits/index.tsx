@@ -8,11 +8,10 @@ import Link from 'next/link'
 export function Benefits() {
   return (
     <>
-      <div className="container mx-auto flex flex-wrap justify-center pt-[-40rem] px-4 mb-16 sm:px-16 md:px-[5rem] lg:px-[11.75rem]">
+      <div className="container mx-auto flex flex-wrap justify-center mt-[-1rem] sm:mt-[6rem] px-4 mb-16 sm:px-16 md:px-[5rem] lg:px-[11.75rem]">
         <h1 className="text-5xl w-full text-center font-normal pb-8 font-dosis">
           Vantagens do <span className="text-[#0d82ff] font-bold">Droplinkfy</span>
         </h1>
-
         <div className="w-1/2 md:w-full flex flex-col justify-items-center">
           <Image
             src="/assets/1.png"
