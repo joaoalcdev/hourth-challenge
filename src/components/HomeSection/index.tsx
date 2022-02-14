@@ -9,10 +9,10 @@ import { VideoSection } from '../VideoSection/index'
 export function HomeSection() {
   return (
     <>
-      <div className="mx-4 sm:mx-16 md:mx-[5rem] lg:mx-[11.75rem]">
+      <div className="mt-[-1rem] sm:mt-0 mx-2 sm:mx-16 md:mx-[5rem] lg:mx-[11.75rem]">
         <Image src="/assets/bg_top.jpg" layout="fill" className="relative bg-cover bg-fixed bg-no-repeat bg-center object-cover sm:object-cover z-[-1]" />
         <Navbar />
-        <div className="min-h-screen min-w-full px-4 flex flex-col justify-center mt-[-2rem]">
+        <div className="min-h-screen min-w-full px-2 flex flex-col justify-center mt-[-3rem]">
           <div className="relative w-full max-w-screen lg:max-w-6xl xl:max-w-screen-2xl mx-auto mb-[-5%] sm:mb-0">
             <div className="flex items-center text-center sm:text-justify justify-center md:justify-start pt-0">
               <div className="px-3 py-6">
