@@ -16,7 +16,7 @@ export function PricingCard() {
           className="text-5xl justify-center items-center justify-items-center w-full text-center font-normal pb-6 px-4 font-dosis mx-auto">
           Confira nosso <span className="text-[#0050c7] font-bold">plano</span>
         </h1>
-        <div className="w-2/3 md:w-1/2 lg:w-1/3 p-2">
+        <div className="w-ful sm:w-1/2 lg:w-1/3 p-2">
           <div className="p-8 mx-auto rounded-xl shadow-xl border border-[#e9e9e9]">
             <h4
               className="text-center font-dosis">
@@ -26,7 +26,7 @@ export function PricingCard() {
               className="text-center font-bold text-3xl pt-4 pb-1 font-dosis">
               14 dias de teste grátis.
             </h4>
-            <h5 className="text-5xl py-2 text-[#0050c7] text-center font-bold font-dosis">
+            <h5 className="text-4xl sm:text-5xl py-2 text-[#0050c7] text-center font-bold font-dosis">
               Após <br /> R$387/mês
             </h5>
             <p
