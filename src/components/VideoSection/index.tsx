@@ -8,9 +8,9 @@ export function VideoSection() {
         <h3 className="mb-8 font-[300] text-[270%] text-center font-dosis">
           Assista o vídeo até o final e veja <span className="text-[#0d82ff] font-bold">Como Funciona</span>
         </h3>
-        <div className="aspect-auto flex bg-indigo-100 text-white font-bold rounded-lg border p-1 h-3/5 w-[90%] md:w-10/12">
+        <div className="aspect-auto flex bg-indigo-100 text-white font-bold rounded-lg border p-1 w-full h-auto px-auto">
           <iframe
-            className="flex min-w-[4rem] min-h-[8rem] w-full h-full p-2 rounded-lg aspect-video"
+            className="flex w-full p-2 rounded-lg aspect-video"
             src="https://www.youtube.com/embed/wYc5h8gsg2k"
             title="Mais lucro em sua loja de dropshipping"
             frameBorder="0"
