@@ -98,7 +98,7 @@ export function Benefits() {
           <Link
             passHref
             href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
-            <a className="text-lg mx-auto flex justify-center items-center justify-items-center text-center w-full mt-6 px-4 px-auto py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700] font-open-sans">
+            <a className="text-lg mx-auto flex justify-center items-center justify-items-center text-center w-full mt-0 px-4 px-auto py-4 rounded-full tracking-wide bg-gradient-to-b bg-[#e5ac0e] text-white outline-none focus:outline-none hover:shadow-lg hover:from-[#f8b601] transition duration-200 ease-in-out font-[700] font-open-sans">
               QUERO LUCRAR MAIS
             </a>
           </Link>

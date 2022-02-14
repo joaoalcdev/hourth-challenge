@@ -74,7 +74,7 @@ export function PricingCard() {
                 Dúvidas? Fale conosco!
               </a>
             </Link>
-            <div className="flex flex-col items-center justify-center mt-0 w-full mx-auto px-12 sm:px-32 md:px-[30%] lg:px-[]">
+            <div className="flex flex-col items-center justify-center mt-0 w-full mx-auto px-4 sm:px-32 md:px-[30%] lg:px-[]">
               <Link
                 passHref
                 href="https://www.custream.com/d7246215-e4bc-46d5-ba26-d8a4d78c54e0#TNibVteCcw9sv4Bfk2leOpVaiDJ1Hsir">
